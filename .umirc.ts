@@ -4,7 +4,12 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index' },
     {
-      path: '/products', component: '@/pages/products'
-    }
+      path: '/products',
+      component: '@/pages/products',
+    },
+    {
+      path: '/form',
+      component: '@/pages/form',
+    },
   ],
 });
